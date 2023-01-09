@@ -62,5 +62,27 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+
   
+}
+#fone{
+  width: 50%;
+  height: 100%;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  color: white;
+}
+h1{
+  display: flex;
+ font-family: calibri;
+  justify-content: center;
+}
+#ftwo{
+  width: 50%;
+  height: 100%;
+  border: 1px solid blue;
 }
