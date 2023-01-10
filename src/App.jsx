@@ -16,6 +16,17 @@ function App() {
     setFormdata({...formdata,[id]:value})
    
   }
+window.onload=()=>{
+  var value=JSON.parse(localStorage.getItem("Voosh_data"))
+
+  if(value==null){
+    alert("You have not logged in.")
+  }
+  else{
+    alert(`${value.name} has logged in.`)
+  }
+
+}
 
   const submit=()=>{
     if(formdata.name=="" || formdata.email=="" || formdata.password=="" || formdata.title=="" || formdata.companay_name==""){
